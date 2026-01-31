@@ -22,11 +22,11 @@ input.onGesture(Gesture.Shake, function () {
         . . . . .
         `)
     basic.pause(1000)
-    music.play(music.stringPlayable("C5 C5 C5 E F G F - ", 120), music.PlaybackMode.UntilDone)
-    music.play(music.stringPlayable("- - F G A G - - ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("C C C - A G F G ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("- - G F E F - - ", 120), music.PlaybackMode.UntilDone)
     basic.pause(100)
-    music.play(music.stringPlayable("G F E E F G F - ", 120), music.PlaybackMode.UntilDone)
-    music.play(music.stringPlayable("A F G A F G - - ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("F G A A G F G - ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("E G F E G F - - ", 120), music.PlaybackMode.UntilDone)
 })
 input.onGesture(Gesture.TiltRight, function () {
     basic.showArrow(ArrowNames.East)
